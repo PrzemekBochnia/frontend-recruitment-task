@@ -10,14 +10,22 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <div class="content">
-                <div class="imgContainer">
+        <div class="container" id="container">
+            <div class="content" id="content">
+                <div class="imgContainer" id="imgContainer">
                 </div>
-                <div class="textContainer">
+                <div class="textContainer" id="textContainer">
                     <h1>Lorem Ipsum</h1>
                     <p>Infinitely scalable, feature-rich and cloud-native data management and protection for modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware required.</p>
                     <button class="btn" id="button">Button</button>
+                </div>
+            </div>
+            <div class="popup" id="popup">
+                <div class="popupContent" id="popupContent">
+                    <span class="close" id="close">&times;</span>
+                    <h1>Alert!</h1>
+                    <p>You have clicked <span id="counter">0</span><span> times</span> to related button</p>
+                    <button class="hidden btn" id="hiddenButton">Reset</button>
                 </div>
             </div>
         </div>
