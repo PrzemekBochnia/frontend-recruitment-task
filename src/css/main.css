@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 960px;
+}
+.content{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin: 96px 230px;  
+    /* background: blueviolet; */
+}
+.imgContainer{
+    width: 100%;
+    max-width: 505px;
+    min-width: 505px;
+    height: 330px;
+    background-image: url('../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_ar_16_9,c_fill,g_auto__c_scale,w_720.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.textContainer{
+    width: 380px;
+    height: 250px;
+}
+.textContainer h1{
+    font-size: 42px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    width: inherit;
+    color: #121212;
+}
+.textContainer p{
+    font-size: 16px;
+    color: #121212  ;
+}
+.textContainer button{
+    margin-top: 48px;
+    width: 128px;
+    height: 48px;
+    border-radius: 32px;
+    background: #E4C1AE;
+    border: none;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+   
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .textContainer{
+        text-align: center;
+        align-items: center;
+    }
+  }

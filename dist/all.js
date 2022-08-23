@@ -1,0 +1,1 @@
+const button=document.querySelector("#button");button.addEventListener("click",function(t){console.log("click")});
